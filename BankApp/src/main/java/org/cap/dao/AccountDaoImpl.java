@@ -17,4 +17,9 @@ public class AccountDaoImpl implements AccountDao{
 		return null;
 	}
 
+	@Override
+	public void display() {
+		System.out.println("Bank Application!");
+	}
+
 }
